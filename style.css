@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto&family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+  height: 100vh;
+  background-color: #e7e7e7;
+  font-size: 22px;
+  position: relative;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  background-color: #fff;
+  border-radius: 10px 0px;
+  text-align: center;
+  box-shadow: 3px 1px 15px rgb(0 0 0 / 30%);
+}
+h1 {
+  background-color: plum;
+  padding: 20px 0;
+  font-size: 20px;
+  border-radius: 10px 0px;
+}
+p {
+  color: #777;
+}
+.control {
+  margin: 25px 0;
+}
+input {
+  border: none;
+  outline: none;
+  text-align: center;
+  border-bottom: 1px solid purple;
+  color: purple;
+  font-size: 25px;
+  margin-top: 20px;
+}
+select {
+  border: none;
+  outline: none;
+  border: 1px solid purple;
+  color: #777;
+  font-size: 10px;
+  margin-top: 20px;
+  padding: 11px 4px;
+  width: 75%;
+  border-radius: 20px 0px;
+}
+button#Calculate {
+  color: white;
+  background: purple;
+  border: 1px solid transparent;
+  font-size: 17px;
+  border-radius: 25px;
+  padding: 14px 20px;
+  margin: 25px;
+  transition: all 0.1s ease;
+}
+button#Calculate:hover {
+  color: purple;
+  border: 1px solid transparent;
+  font-size: 17px;
+  background: #7777;
+}
+.totalTip {
+  background-color: plum;
+  border-radius: 10px 0px;
+  padding: 25px 0 25px;
+}
+p.tip {
+  font-size: 38px;
+  color: purple;
+  margin-top: 10px;
+}
